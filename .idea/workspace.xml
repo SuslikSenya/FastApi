@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53b440e7-e74a-46f2-8f48-d15e84eed575" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/migrations/env.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/env.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/versions/b5b16ea02413_initial_migration.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/auth/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/auth/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/database.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/operations/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/operations/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/operations/router.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/operations/router.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
