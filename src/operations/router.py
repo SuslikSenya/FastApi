@@ -35,13 +35,13 @@ async def get_specific_operations(operation_type: str, session: AsyncSession = D
     try:
         query = select(operation).where(operation.c.type == operation_type)
         result = await session.execute(query)
-        print (result)
+        print(result)
         operations = result.fetchall()  # Fetch all results
-        print (operations)
+        print(operations)
 
         # Convert each SQLAlchemy Row object to a dictionary
         operations_list = [{column.name: getattr(op, column.name) for column in operation.columns} for op in operations]
-        print (operations_list)
+        print(operations_list)
         return {
             "status": "success",
             "data": operations_list,
@@ -66,3 +66,8 @@ async def add_specific_operations(new_operation: OperationCreate, session: Async
     await session.commit()
     return {"status": "success"}
 
+
+# @router.get("/main")
+# async def main(session: AsyncSession = Depends(get_async_session)):
+#     result = await session.execute(select(1))
+#     return result.all()
